@@ -1,0 +1,94 @@
+{
+ "shoes": [
+  {
+    "category": "shoes",
+    "id": 41,
+    "title": "Men's Running Shoes",
+    "description": "Men's Running Shoes, Lightweight and Durable",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfPwLwJ2wdVmXhoi3WSgdQdatLLiTI1WB1UA&s",
+    "price": 59.99,
+    "rating": { "rate": 8.7, "count": 310 }
+  },
+  {
+    "category": "shoes",
+    "id": 42,
+    "title": "Women's Sneakers",
+    "description": "Stylish and Comfortable Sneakers for Women, White Color",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY82hGF9XjM_AZTMvcvoainBRj6xAIiRmD6w&s",
+    "price": 49.99,
+    "rating": { "rate": 8.5, "count": 280 }
+  },
+  {
+    "category": "shoes",
+    "id": 43,
+    "title": "Casual Loafers",
+    "description": "Men's Casual Loafers, Perfect for Daily Wear",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFJObyi1dGm9OP0EwpcPdNEIDlvxwHa9B5rw&s",
+    "price": 39.99,
+    "rating": { "rate": 8.2, "count": 200 }
+  },
+  {
+    "category": "shoes",
+    "id": 44,
+    "title": "Formal Leather Shoes",
+    "description": "Men's Classic Leather Formal Shoes, Brown Color",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDrVY3e1iDxLLGU8OQS_yct_pjAcUrxy2Sg&s",
+    "price": 69.99,
+    "rating": { "rate": 9.0, "count": 150 }
+  },
+  {
+    "category": "shoes",
+    "id": 45,
+    "title": "Women's High Heels",
+    "description": "Elegant Women's High Heel Shoes for Parties & Events",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEyNoNFGBcnn0gfSsv963xZQi5YabX8tS9DA&s",
+    "price": 44.99,
+    "rating": { "rate": 8.9, "count": 220 }
+  },
+  {
+    "category": "shoes",
+    "id": 46,
+    "title": "Hiking Boots",
+    "description": "Durable and Waterproof Hiking Boots for Outdoor Adventures",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3C9M2RW9ruU9OS_FezakmHJQmSk5ENT3wEg&s",
+    "price": 79.99,
+    "rating": { "rate": 9.2, "count": 180 }
+  },
+  {
+    "category": "shoes",
+    "id": 47,
+    "title": "Slip-On Sandals",
+    "description": "Comfortable Slip-On Sandals for Men & Women",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFZ4XHUi7ynVfe0czLi74uIEELZb4ExbLNhA&s",
+    "price": 19.99,
+    "rating": { "rate": 7.8, "count": 250 }
+  },
+  {
+    "category": "shoes",
+    "id": 48,
+    "title": "Kids' Sports Shoes",
+    "description": "Lightweight and Breathable Sports Shoes for Kids",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJzypbojqvpq0ao5iHjzo4AdLUdBYWLbA6lA&s",
+    "price": 29.99,
+    "rating": { "rate": 8.6, "count": 140 }
+  },
+  {
+    "category": "shoes",
+    "id": 49,
+    "title": "Basketball Shoes",
+    "description": "High-Performance Basketball Shoes for Maximum Grip",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI5fae_v5uefdZKgiGH3mJZuDOIZhTyixnvw&s",
+    "price": 89.99,
+    "rating": { "rate": 9.3, "count": 120 }
+  },
+  {
+    "category": "shoes",
+    "id": 50,
+    "title": "Trekking Shoes",
+    "description": "Men's Trekking Shoes with Anti-Slip Sole and Cushioning",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnqoq7gH9QWOOAdM9Fn4AxtrdGUA3Cx7FfwA&s",
+    "price": 74.99,
+    "rating": { "rate": 9.1, "count": 160 }
+  }
+]   
+}

@@ -1,0 +1,94 @@
+{
+    "fashion": [
+  {
+    "category": "fashion",
+    "id": 21,
+    "title": "Slim Fit Cotton Shirt",
+    "description": "Men's Slim Fit Cotton Shirt, Blue Color",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqc5TnfwYlvp5Ddbuzgixbgx6Af41HtRPXFg&s",
+    "price": 29.99,
+    "rating": { "rate": 8.2, "count": 220 }
+  },
+  {
+    "category": "fashion",
+    "id": 22,
+    "title": "Casual Denim Jacket",
+    "description": "Unisex Stylish Denim Jacket, Perfect for Casual Wear",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSl9xKQ7s2DA4-98bZ-0-AiIIvDxKtFlPENcC1QNMJZWt10hnDSWjYVRn9rBNuu8ghXEj0fwuVnswnRUXtaMkpAJzwWbBuH7xSXA68y0ygYIYQ0CP6aB9jY",
+    "price": 49.99,
+    "rating": { "rate": 9.0, "count": 180 }
+  },
+  {
+    "category": "fashion",
+    "id": 23,
+    "title": "Classic Leather Belt",
+    "description": "Genuine Leather Belt with Metal Buckle, Black Color",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSms4YNJvE5KJcu1iQnC0ty7YaD5a-p4bJAjQ&s",
+    "price": 19.99,
+    "rating": { "rate": 7.8, "count": 300 }
+  },
+  {
+    "category": "fashion",
+    "id": 24,
+    "title": "Stylish Sneakers",
+    "description": "Comfortable Running Shoes for Men, White Color",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS5sCdUVIn0YJVUuvC1gyZFRyv5KaPsqYV0-Rn9O8LGJTiQ9d9iyw3LFjCPGYe-XcGgdblZJU_S1XaFRmrGh1k13GpElgx8UO9AQ-QC_b20dfvuKkhyjGJN",
+    "price": 59.99,
+    "rating": { "rate": 8.5, "count": 150 }
+  },
+  {
+    "category": "fashion",
+    "id": 25,
+    "title": "Women's Floral Dress",
+    "description": "Elegant Summer Floral Dress, Lightweight Fabric",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSKlS7BPQpThwIBOzEZAh3jjBRB9mwxo6JN138H-_zvXjgHe2uKoTEQlofYvZXaLhu5_n50rrlHgfW6OX76MRlNSQ-vpnR78w",
+    "price": 39.99,
+    "rating": { "rate": 9.1, "count": 250 }
+  },
+  {
+    "category": "fashion",
+    "id": 26,
+    "title": "Cotton Joggers",
+    "description": "Men's Cotton Joggers, Perfect for Gym & Casual Wear",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR9A08Jw1rmKEEJ9tbYea-4mUgty6TI6hi-_1FnofLWOFwOu12o8Tg_OMt68Q3kkO75g-sfzu3piGQ0SI-yjx9mSa7_4StHknwzAMrGzihQt1sJp8HGqZ4mEfpSTw1YLre3Ov5KqD0&usqp=CAc",
+    "price": 34.99,
+    "rating": { "rate": 8.0, "count": 200 }
+  },
+  {
+    "category": "fashion",
+    "id": 27,
+    "title": "Hooded Sweatshirt",
+    "description": "Warm and Stylish Hoodie, Soft Fabric, Black Color",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSyMBh-JNe7R8QBHcWymob8S726yNJCy9Jru61KMvzJ_cJlCkMU-_uTYgQd0EJnjsCQ-3QBj5DJ98e74JQ30knzh5Up8WkP",
+    "price": 44.99,
+    "rating": { "rate": 8.7, "count": 320 }
+  },
+  {
+    "category": "fashion",
+    "id": 28,
+    "title": "Formal Blazer",
+    "description": "Men's Slim Fit Formal Blazer, Ideal for Office Wear",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ5iaPlLMTjjAPXzq7TQ_V23kMpwsN6I17ppTOyGi9cVRCcKlfx-qGVqNPpZie8s_g8-hXDrk2kNNtJnxRojobMW3cB0QejRYwmk_kIG2kUDGjppVuX_dZB",
+    "price": 79.99,
+    "rating": { "rate": 9.2, "count": 120 }
+  },
+  {
+    "category": "fashion",
+    "id": 29,
+    "title": "Women's Handbag",
+    "description": "Elegant Leather Handbag with Spacious Compartments",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSOC_739mn-80ZDA9Xp5w0E_FapWKMGqg1d5qeBvkoZp762EQzhTXW_cM0yyglS5ygXVBpAk9yhSmO9csi7URdxUnFiVc-NKq9QuV7GXtI2OzbDMYred7Y2pLawPTMeyuXwHdBJCPtVuA&usqp=CAc",
+    "price": 54.99,
+    "rating": { "rate": 8.9, "count": 180 }
+  },
+  {
+    "category": "fashion",
+    "id": 30,
+    "title": "Aviator Sunglasses",
+    "description": "Classic UV Protection Aviator Sunglasses for Men & Women",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTftHMaAxkeqXcHuBRNzvUbDHQYTTze-4xy_DbeEa9caHi9q6og-mx92JDP4F0MJY-v3qedvSP3LJnuH1lcToVhCiFCu4COSELmbxfndDGi5wjsXx507AK3qiE",
+    "price": 24.99,
+    "rating": { "rate": 8.4, "count": 260 }
+  }
+]
+}

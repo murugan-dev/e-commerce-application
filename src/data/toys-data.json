@@ -1,0 +1,94 @@
+{
+    "toys": [
+  {
+    "category": "toys",
+    "id": 51,
+    "title": "Remote Control Off-Road Car",
+    "description": "Remote Control Car, 4WD Off-Road Model",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUzc1z5vWRdLj-pdwmbUiiBg-vc1BTZou1ig&s",
+    "price": 49.99,
+    "rating": { "rate": 8.5, "count": 150 }
+  },
+  {
+    "category": "toys",
+    "id": 52,
+    "title": "Building Blocks Set",
+    "description": "500-Piece Building Blocks for Kids, Educational and Fun",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnU7eQzmUXdeCiH8ydm5xH_E7bo60h9nq7w&s",
+    "price": 29.99,
+    "rating": { "rate": 9.0, "count": 220 }
+  },
+  {
+    "category": "toys",
+    "id": 53,
+    "title": "Dollhouse Playset",
+    "description": "Complete Dollhouse Set with Furniture and Accessories",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcXoBRI4AWhTj7Kgv90rteAP6t432xf2JCw&s",
+    "price": 59.99,
+    "rating": { "rate": 8.8, "count": 130 }
+  },
+  {
+    "category": "toys",
+    "id": 54,
+    "title": "Puzzle Game",
+    "description": "1000-Piece Jigsaw Puzzle for Brain Training",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRHbLfrf1UNhIrfUK7gnPiH9EyoCkH1ZGJ-Q&s",
+    "price": 19.99,
+    "rating": { "rate": 8.2, "count": 180 }
+  },
+  {
+    "category": "toys",
+    "id": 55,
+    "title": "Stuffed Teddy Bear",
+    "description": "Soft Plush Teddy Bear, 3 Feet Tall, Brown Color",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLSU-60uyW0SH1wfHXu5H9Q2x1lkMxuBpu7Q&s",
+    "price": 39.99,
+    "rating": { "rate": 9.1, "count": 210 }
+  },
+  {
+    "category": "toys",
+    "id": 56,
+    "title": "Toy Train Set",
+    "description": "Electric Train Set with Tracks, Lights & Sound",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoD_ZF64WRQtyVMuYMiVbyrZM0YxvjhDDujg&s",
+    "price": 69.99,
+    "rating": { "rate": 9.3, "count": 140 }
+  },
+  {
+    "category": "toys",
+    "id": 57,
+    "title": "Basketball Hoop Set",
+    "description": "Indoor & Outdoor Basketball Hoop Set for Kids",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREF8p7eX7H1G7K0um1R6UXdCiGBVYiqblANw&s",
+    "price": 44.99,
+    "rating": { "rate": 8.7, "count": 160 }
+  },
+  {
+    "category": "toys",
+    "id": 58,
+    "title": "Musical Keyboard Toy",
+    "description": "Electronic Musical Keyboard with 20 Built-in Tunes",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_riyj8G1Lrv61l6j84sTrYonrtZC7YPrr8A&s",
+    "price": 34.99,
+    "rating": { "rate": 8.4, "count": 170 }
+  },
+  {
+    "category": "toys",
+    "id": 59,
+    "title": "RC Helicopter",
+    "description": "Remote Control Helicopter with LED Lights & Stunt Mode",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQicHOF-686DjBSU4_hGvcvAHbC0Bq8i-NHYQ&s",
+    "price": 79.99,
+    "rating": { "rate": 9.2, "count": 120 }
+  },
+  {
+    "category": "toys",
+    "id": 60,
+    "title": "Toy Kitchen Set",
+    "description": "Miniature Kitchen Playset with Utensils and Sounds",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX9s4ec5dmkADy7nMw8bkNz5df_yMNV9V95w&s",
+    "price": 49.99,
+    "rating": { "rate": 8.9, "count": 190 }
+  }
+]
+}

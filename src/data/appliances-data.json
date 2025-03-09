@@ -1,0 +1,94 @@
+{
+ "appliances": [
+  {
+    "category": "appliances",
+    "id": 1,
+    "title": "6L Air Fryer",
+    "description": "Air Fryer with 6L Capacity, 1500W Power",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTMkUkkJhN7ivEhV_1Z-PjrT0ZB097EhAE_5vl5Y48Lc6CV_-QS9k4uj_rs9i4xJMRS0nF5xz4-jyeZSvg_hX0EEcatLboRaYgfVa-fETS8MfLVk9CfX4x0",
+    "price": 89.99,
+    "rating": { "rate": 8.9, "count": 180 }
+  },
+  {
+    "category": "appliances",
+    "id": 2,
+    "title": "Electric Kettle",
+    "description": "1.8L Stainless Steel Electric Kettle with Auto Shut-Off",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSmwzYYXviaT-nTvwM8vcrdunE9AFoVTPJqt3u-THBQvdCltOOjuusPnY93JxI5R6JescRr8xubR2gakdo2y0YuNiaoIUleSDOy4y_1EhnqH1MW0HtsSKELfA",
+    "price": 29.99,
+    "rating": { "rate": 8.5, "count": 250 }
+  },
+  {
+    "category": "appliances",
+    "id": 3,
+    "title": "Microwave Oven",
+    "description": "20L Digital Microwave Oven with Grill Function",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRArmOEVsuWH1hzsj_J87HrZXlSmosk4QYsrOqnFyKFO58hZg_a4svpSAUHKPrSuMVB7Uo2Es9qjVHEzt4fLiDBeqf1iTnqxYVrez5pMhtmMYwLOgjTK1NAmw",
+    "price": 119.99,
+    "rating": { "rate": 9.2, "count": 140 }
+  },
+  {
+    "category": "appliances",
+    "id": 4,
+    "title": "Vacuum Cleaner",
+    "description": "High-Power Cordless Vacuum Cleaner, Lightweight & Portable",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTiLx21NjsJW2W1mefCnsgRJwgh8eQlVJXC8iwzMs4ygIwpVitzouUx9hfi-flgFFyP3rR-5K0ZzAn2Adb2-Qi_xuphjWQvY5nRy7n8T_Al84i9zgA_csMr",
+    "price": 149.99,
+    "rating": { "rate": 9.0, "count": 190 }
+  },
+  {
+    "category": "appliances",
+    "id": 5,
+    "title": "Coffee Maker",
+    "description": "Programmable Coffee Maker with 12-Cup Capacity",
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRUmrogxsS7nTZ5TED5TclRpzfwgumm1qiMJeeBOvpgVuKRwQ6HYnDZ9t_4vsfzeJk0GNHeUHrUDIsWuWHP31QIbtpHnkB5eUfbpoTtmNPRdG2KfdTd5sWFxQ",
+    "price": 59.99,
+    "rating": { "rate": 8.8, "count": 210 }
+  },
+  {
+    "category": "appliances",
+    "id": 6,
+    "title": "Blender & Mixer",
+    "description": "600W Blender with 5-Speed Settings & Stainless Steel Blades",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR_71o8kJ9XwUfqTIBaxgLDlXKaPo35uc1kSIYp7bwltyAscbrFqIENejCBc9UG2tVnFEq_HaegRJ9yP0ZkiG4mg32oErIAXL_1TPups4MJdGYHebPDmj1X",
+    "price": 44.99,
+    "rating": { "rate": 8.4, "count": 170 }
+  },
+  {
+    "category": "appliances",
+    "id": 7,
+    "title": "Induction Cooktop",
+    "description": "2000W Induction Cooktop with Touch Controls",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT21k5rrFh2u4J-dcHqodFJSivL_fIj1DSsBr5Yp3MxSJ9B0TiePKCnY7k98EN7Wd8PTinXaOBPvkxAK5jMOqvqYJrDyLjJ45dzxR74J4g",
+    "price": 79.99,
+    "rating": { "rate": 8.7, "count": 160 }
+  },
+  {
+    "category": "appliances",
+    "id": 8,
+    "title": "Hair Dryer",
+    "description": "Professional Hair Dryer with Ionic Technology, 2200W",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR5OQi9Ftby5rxqjBYE-8C7zmHLB5ZnSmUo0MJ77gZLlQaSSRZH_Hmz9OLkbGwQzlnDxFa4_d0y_2HCXJ58EDuqY9yCSMGRm01hVjg8HBA",
+    "price": 34.99,
+    "rating": { "rate": 8.6, "count": 230 }
+  },
+  {
+    "category": "appliances",
+    "id": 9,
+    "title": "Dishwasher",
+    "description": "Freestanding 12-Place Dishwasher with Eco Mode",
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQmOp1AalOG7K70PKvMNw535gNtEiRAS737fzjEq2RqiygLyxbAj73mMsrsjAIpI9dCCFRhosbhzBBcE1u7NKW_05Au-lvamutOBRZgkI-eAK96IE4uEyvi6A",
+    "price": 399.99,
+    "rating": { "rate": 9.5, "count": 100 }
+  },
+  {
+    "category": "appliances",
+    "id": 10,
+    "title": "Steam Iron",
+    "description": "1800W Steam Iron with Anti-Drip & Adjustable Temperature",
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ3dbeaYZ6SsgnJakuzng_r2tQTrMtuknXhmqyja1LWb59DCgWM_9m7bMfxmPLAoDbetPigPF3GN57asO_VaihnRfCB0RPqJ8_46b312e5K_jgHqK2rMPctDdQ",
+    "price": 49.99,
+    "rating": { "rate": 8.9, "count": 180 }
+  }
+]   
+}

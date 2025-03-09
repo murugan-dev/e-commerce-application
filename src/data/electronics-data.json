@@ -1,0 +1,95 @@
+{
+    "electronics": [
+      {
+        "category": "Electronics",
+        "description": "Smart LED TV with 4K UHD Display, 60Hz Refresh Rate",
+        "id": 11,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRofggmsmYKEA1wF9Ha2PedHboRNVAYQ4T1eQ&s",
+        "price": 599.99,
+        "rating": { "rate": 8.5, "count": 120 },
+        "title": "4K UHD Smart LED TV"
+      },
+      {
+        "category": "Electronics",
+        "description": "Wireless Bluetooth Headphones, Noise Cancelling",
+        "id": 12,
+        "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTYJ_q_N0VinuDu2qudWPrsYPEfU2Yp7vB46d2DJAOzzq2cQodye2hsHCpArAMz5_BWrhEss7kgXuhKyjIwtrotDRLeUjpvf7OA5xVXINMW",
+        "price": 129.99,
+        "rating": { "rate": 9.0, "count": 340 },
+        "title": "Bluetooth Noise Cancelling Headphones"
+      },
+      {
+        "category": "Electronics",
+        "description": "Gaming Laptop, 16GB RAM, RTX 3060 GPU",
+        "id": 13,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGWk5GzF5t1w_sgV8IVblfy4omwummorfuLg&s",
+        "price": 1199.99,
+        "rating": { "rate": 9.3, "count": 275 },
+        "title": "Gaming Laptop RTX 3060"
+      },
+      {
+        "category": "Electronics",
+        "description": "Smartwatch with Heart Rate Monitor, GPS Enabled",
+        "id": 14,
+        "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSv9kvHWZEsXgo7bhsnC8lBMGvXC8LfffKesh0_oBcMAp70-1bW52FiceHakGnYUClWW_INMi11d8dg6O2Ex-NISHqPI-JoFKh8qrEL9oIFTnXOikP9BOtZ2A",
+        "price": 199.99,
+        "rating": { "rate": 8.8, "count": 400 },
+        "title": "GPS Smartwatch"
+      },
+      {
+        "category": "Electronics",
+        "description": "Wireless Mechanical Keyboard, RGB Backlight",
+        "id": 15,
+        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRvl08Ib4_82EccWMUfm2wHE_ck-YSTnKuHvtp5q0S_lC2_mNLCyQ0QyEpFJa2ewuCgC2tKXF8LDwdsFhMwlm3ZXYRnxH2cy8KftFd7f4zGA628btz1FHIe2A",
+        "price": 89.99,
+        "rating": { "rate": 9.0, "count": 150 },
+        "title": "RGB Mechanical Keyboard"
+      },
+      {
+        "category": "Electronics",
+        "description": "Noise Cancelling Earbuds, Long Battery Life",
+        "id": 16,
+        "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQCQYuZcUXKGIXp751tg3iUG53K_XHpAkihblDjTr5Ymu6qKFHfB579Wdkgrtyh9I2JaTsLNBYzNFAmj8NsX9TA6Z-EjxNBqHUigvb_oS1KsPTx5J2JK26M",
+        "price": 79.99,
+        "rating": { "rate": 8.6, "count": 230 },
+        "title": "Noise Cancelling Earbuds"
+      },
+      {
+        "category": "Electronics",
+        "description": "Portable Bluetooth Speaker, Waterproof Design",
+        "id": 17,
+        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRtWs9lVYBjxZwq3_99gL8oVPsiZiEOA5GyXSGcejdUUOhLXHZ4dZDcKI9dPcmM9m9RfwF5B5h2MkFQ-5hsed6tbIrXH1AGDKY1McnYxyvQC6cyJEIGKYop1A",
+        "price": 49.99,
+        "rating": { "rate": 8.7, "count": 180 },
+        "title": "Waterproof Bluetooth Speaker"
+      },
+      {
+        "category": "Electronics",
+        "description": "Full HD Webcam, 1080p Resolution, Built-in Mic",
+        "id": 18,
+        "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQDYjl7iogwACrenWmTvs8KxzwAwqmqGcTmoeE2Y4gyTIqkQ2KHXcyFRQ1CHirJqM-a5O5V5IRmtj10YUwPCvQSzQ1cGQ3rFAePa9tskMFjm_bAmPuSFObAqOdU",
+        "price": 39.99,
+        "rating": { "rate": 8.2, "count": 130 },
+        "title": "1080p HD Webcam"
+      },
+      {
+        "category": "Electronics",
+        "description": "Gaming Mouse, 12 Programmable Buttons",
+        "id": 19,
+        "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSdpabVdQUUl94KWnrAn_bfPCdWATbbqp0XDr1gI4sBGd1C3wUlo4DMV9dVX3vP7_eqHf_kph6r6op4Lj8dmDYogFY9CrECfnUtqgqOMuyEqBX63ag7bwrKtA",
+        "price": 59.99,
+        "rating": { "rate": 8.9, "count": 170 },
+        "title": "Gaming Mouse with RGB"
+      },
+      {
+        "category": "Electronics",
+        "description": "Curved Gaming Monitor, 144Hz Refresh Rate",
+        "id": 20,
+        "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ4GvX4Ki6fRIjtuG7t_PiQi7fctqg7hfQHMzNibYoY_Kuy9dJF3uRf3lOrTG8q06yFgBs9Wa1NSudmAIZ9LiG_itgM4w2pGISFJPmWjkDeygDSZmNJsYsU",
+        "price": 299.99,
+        "rating": { "rate": 9.1, "count": 190 },
+        "title": "144Hz Curved Gaming Monitor"
+      }
+    ]
+
+}

@@ -1,0 +1,94 @@
+{
+    "mobiles": [
+  {
+    "category": "mobiles",
+    "description": "5G Smartphone with 128GB Storage, 5000mAh Battery",
+    "id": 31,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTBIWtGJsI6nrwRg8zbK9IvVrQts0H031bEiZE45Slsw0WkXDJvvBAjCFBXGEd8oabMlLJ-4-qTx_451P0cjD3PWXyDduEGv1cABoRua81nlB_qEF1TggGBo0ZDj7HBCfwG9uphSA&usqp=CAc",
+    "price": 699.99,
+    "rating": { "rate": 9.1, "count": 500 },
+    "title": "5G Smartphone 128GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Budget-friendly smartphone with 64GB Storage, 4000mAh Battery",
+    "id": 32,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSRu-AA6IXh14iMTfad6VoYbOgAVUQ5_NJZFeP-nElhUcP1C-O2ndEw7bqdUY3gpnPdeDF7CYgXcseZ_sjPiZwsqCwimSWMeOcxL77oN_UW",
+    "price": 299.99,
+    "rating": { "rate": 8.5, "count": 320 },
+    "title": "Budget Smartphone 64GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Flagship smartphone with 256GB Storage, 6000mAh Battery",
+    "id": 33,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQuSMBY0IvkFyOkLQ59CpComW4wdBmOzdTVuIcJaOj-6j2k00V1We6elqyTc2Jzk0U6PQEOKbNlpXCcN2BYW1oINrsL11yeohJiELrAMUJen1HHIbwf_ElrGfhSxuZUiaFlcSwE8Q&usqp=CAc",
+    "price": 999.99,
+    "rating": { "rate": 9.7, "count": 1000 },
+    "title": "Flagship Smartphone 256GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Mid-range 5G smartphone with 128GB Storage, 4500mAh Battery",
+    "id": 34,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSmH_035GuaMyHkIR2I8P1TiueGLyH8vBHTPz4_lNsd8mrUHsyyeAGu6DxVpAt6VU_qzFEtv54uC6PJIopc0WmqlYuw3Rte7ratMkOnRAnt5ksZ_X6eZJ0j3v5PQG4nlJ3TVPPRmGXQ_d0&usqp=CAc",
+    "price": 499.99,
+    "rating": { "rate": 8.8, "count": 600 },
+    "title": "Mid-Range 5G 128GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Gaming smartphone with 512GB Storage, 7000mAh Battery",
+    "id": 35,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXPjgA80oOtRHdc7zZj1qblMwTTDhFrdRr-w&s",
+    "price": 1199.99,
+    "rating": { "rate": 9.5, "count": 750 },
+    "title": "Gaming Smartphone 512GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Compact smartphone with 128GB Storage, 3500mAh Battery",
+    "id": 36,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mZ0EvNWEoUmcSH1u6D0-RAKD0ZPzdZqsbw&s",
+    "price": 549.99,
+    "rating": { "rate": 8.6, "count": 420 },
+    "title": "Compact Smartphone 128GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Affordable smartphone with 32GB Storage, 3000mAh Battery",
+    "id": 37,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUd3AE6iD7kLhUd0NxBRge6aQmed1maOdZIA&s",
+    "price": 199.99,
+    "rating": { "rate": 7.9, "count": 280 },
+    "title": "Affordable Smartphone 32GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Premium smartphone with 512GB Storage, 8000mAh Battery",
+    "id": 38,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTiQxoerlWDiz3bND7YnjwjZ0MDcnHbXLUbw&s",
+    "price": 1299.99,
+    "rating": { "rate": 9.8, "count": 1100 },
+    "title": "Premium Smartphone 512GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Entry-level smartphone with 64GB Storage, 4000mAh Battery",
+    "id": 39,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4jaWJqbL3bXY_k5F-Sb5olz-I339DAYFtVw&s",
+    "price": 249.99,
+    "rating": { "rate": 8.0, "count": 350 },
+    "title": "Entry-Level Smartphone 64GB"
+  },
+  {
+    "category": "mobiles",
+    "description": "Business smartphone with 256GB Storage, 5000mAh Battery",
+    "id": 40,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwbiSg_cNW32qwX75eu3woYO1UnTwi8S9-pA&s",
+    "price": 799.99,
+    "rating": { "rate": 9.2, "count": 650 },
+    "title": "Business Smartphone 256GB"
+  }
+]
+}
