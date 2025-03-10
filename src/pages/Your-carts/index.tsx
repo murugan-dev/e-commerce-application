@@ -41,6 +41,14 @@ function YourCarts() {
     return total + productCount * product.price;
   }, 0);
 
+  function redirectToBuyPage(){
+    navigate('/buy-now', {
+      state: {
+        products: carts, counts
+      }
+    })
+  }
+
   useEffect(() => {
     if (carts?.length) {
       const initialCounts = carts.reduce((acc, product) => {
@@ -123,7 +131,7 @@ function YourCarts() {
       {!!carts?.length && (
         <>
           <div className="grand-total"> Grand Total: {totalAmount.toFixed(2)}</div>
-          <button className="btn buy-now-btn">Buy Now</button>
+          <button className="btn buy-now-btn" onClick={redirectToBuyPage}>Buy Now</button>
         </>
         )}
         </div>

@@ -2,3 +2,46 @@
     margin: 2rem;
     text-align: center;
 }
+.product-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      .product_quantity{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        button{
+            padding: 0.2rem 0.5rem;
+            cursor: pointer;
+        }
+      }
+}
+.buy-now-grand-total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    h3{
+        font-size: 2rem;
+    }
+}
+.user-info-heading{
+    margin: 2rem;
+}

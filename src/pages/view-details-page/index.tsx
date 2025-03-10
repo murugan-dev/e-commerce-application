@@ -2,7 +2,7 @@
 import React from "react";
 
 // third party libraries
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { FaStar, FaTag } from "react-icons/fa6";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -45,6 +45,7 @@ const Bankoffers = [
 function ViewDetailsPage() {
   const location = useLocation();
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const carts = useSelector(
     (state: { addToCard: { cartItems: ProductInfo[] } }) =>
       state?.addToCard?.cartItems
@@ -62,6 +63,14 @@ function ViewDetailsPage() {
   const isItemInCart = (item: ProductInfo): boolean => {
     return carts.some((cartItem) => cartItem.id === item.id);
   };
+
+  function redirectedToBuy(product: ProductInfo) {
+    navigate("/buy-now", {
+      state: {
+        products: [product],
+      },
+    });
+  }
 
   return (
     <div>
@@ -105,9 +114,12 @@ function ViewDetailsPage() {
             </ul>
           </div>
           <div className="btn-container">
-            <button className="btn-buy-now">Buy Now</button>
-            {/* <button className="btn-add_cart" onClick={()=>addToCart(product)}>Add to Cart</button>
-            <button className="btn-add_cart" onClick={()=>removeToCart(product)}>Remove Cart</button> */}
+            <button
+              className="btn-buy-now"
+              onClick={() => redirectedToBuy(product)}
+            >
+              Buy Now
+            </button>
             {!isItemInCart(product) && (
               <button
                 className="product-card__button btn-add_cart"

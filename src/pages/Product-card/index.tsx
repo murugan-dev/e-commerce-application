@@ -84,7 +84,7 @@ function ProductCard({ category, setCategory }: Readonly<ProductCategory>) {
     product: ProductInfo
   ) {
     e.stopPropagation();
-    navigate("/buy-now", { state: { product } });
+    navigate("/buy-now", { state: { products: [product] } });
   }
 
   function fetchProducts(): void {
