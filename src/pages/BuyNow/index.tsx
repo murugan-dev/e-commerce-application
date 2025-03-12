@@ -10,7 +10,7 @@ import { useFormik } from "formik";
 
 // Custom Component
 import Header from "../Header";
-import formSchema from '@/utils/formSchema'
+import formSchema from "@/utils/formSchema";
 
 // Styles
 import "./styles.scss";
@@ -30,8 +30,7 @@ const BuyNow = () => {
   });
 
   const initialData = {
-    firstName: "",
-    lastName: "",
+    name: "",
     address: "",
     payment: "",
   };
@@ -111,7 +110,7 @@ const BuyNow = () => {
         </table>
       </div>
       <div className="buy-now-grand-total">
-        <h3>Grand Total : {totalAmount}</h3>
+        <h3>Grand Total : {totalAmount?.toFixed(2)}</h3>
       </div>
       <div className="user-info-heading">
         <h3>
@@ -119,104 +118,84 @@ const BuyNow = () => {
           information:
         </h3>
       </div>
-      <form onSubmit={formik.handleSubmit}>
-      {/* First Name */}
-      <div>
-        <label htmlFor="firstName">First Name</label>
-        <input
-          type="text"
-          id="firstName"
-          name="firstName"
-          value={formik.values.firstName}
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-        />
-        {formik.touched.firstName && formik.errors.firstName ? (
-          <div className="errorText">{formik.errors.firstName}</div>
-        ) : (
-          <div className="helperText">Enter your first name</div>
-        )}
-      </div>
-
-      {/* Last Name */}
-      <div>
-        <label htmlFor="lastName">Last Name</label>
-        <input
-          type="text"
-          id="lastName"
-          name="lastName"
-          value={formik.values.lastName}
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-        />
-        {formik.touched.lastName && formik.errors.lastName ? (
-          <div className="errorText">{formik.errors.lastName}</div>
-        ) : (
-          <div className="helperText">Enter your last name</div>
-        )}
-      </div>
-
-      {/* Address */}
-      <div>
-        <label htmlFor="address">Address</label>
-        <input
-          type="text"
-          id="address"
-          name="address"
-          value={formik.values.address}
-          onChange={formik.handleChange}
-          onBlur={formik.handleBlur}
-        />
-        {formik.touched.address && formik.errors.address ? (
-          <div className="errorText">{formik.errors.address}</div>
-        ) : (
-          <div className="helperText">Enter your full address</div>
-        )}
-      </div>
-
-      {/* Payment Method */}
-      <div>
-        <label htmlFor="payment">Mode of Payment</label>
-        <div className="payment-method">
+      <form onSubmit={formik.handleSubmit} className="form-container">
+        <div className="field">
+          <label htmlFor="name" className="label">Name:</label>
           <div>
-            <label>
-              <input
-                type="radio"
-                name="payment"
-                value="GPay"
-                checked={formik.values.payment === "GPay"}
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-              />
-              GPay
-            </label>
-          </div>
-          <div>
-            <label>
-              <input
-                type="radio"
-                name="payment"
-                value="Cash on Delivery"
-                checked={formik.values.payment === "Cash on Delivery"}
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-              />
-              Cash on Delivery
-            </label>
-          </div>
-          {formik.touched.payment && formik.errors.payment ? (
-            <div className="errorText">{formik.errors.payment}</div>
-          ) : (
-            <div className="helperText">Select a payment method</div>
+
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={formik.values.name}
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            className={`input ${formik.touched.name && formik.errors.name? "error-field": ''}`}
+          />
+          {formik.touched.name && formik.errors.name && (
+            <div style={{ color: "red" }}>{formik.errors.name}</div>
           )}
+          </div>
         </div>
-      </div>
 
-      {/* Submit Button */}
-      <div className="place-order">
-        <button type="submit">Place Order</button>
-      </div>
-    </form>
+        <div className="field" >
+          <label htmlFor="address" className="label">Address:</label>
+          <div>
+
+          <input
+            type="text"
+            id="address"
+            name="address"
+            value={formik.values.address}
+            onChange={formik.handleChange}
+            onBlur={formik.handleBlur}
+            className={`input ${formik.touched.address && formik.errors.address? "error-field": ''}`}
+          />
+          {formik.touched.address && formik.errors.address && (
+            <div style={{ color: "red" }}>{formik.errors.address}</div>
+          )}
+          </div>
+        </div>
+        <div className="field">
+          <label htmlFor="payment" className="label">Mode of Payment:</label>
+          <div className="payment-method">
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  name="payment"
+                  value="GPay"
+                  checked={formik.values.payment === "GPay"}
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                />
+                GPay
+              </label>
+            </div>
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  name="payment"
+                  value="Cash on Delivery"
+                  checked={formik.values.payment === "Cash on Delivery"}
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                />
+                Cash on Delivery
+              </label>
+            </div>
+            
+          </div>
+        </div>
+        {formik.touched.payment && formik.errors.payment && (
+              <div style={{ color: "red" }}>{formik.errors.payment}</div>
+            )}
+
+        <div className="place-order">
+          <button type="submit">Place Order</button>
+        </div>
+      </form>
     </div>
   );
 };
