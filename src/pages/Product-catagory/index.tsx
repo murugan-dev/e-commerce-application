@@ -7,7 +7,7 @@ import data from "./data.json";
 import "./styles.scss";
 
 // custom components
-import ProductCard from "../Product-card.tsx";
+import ProductCard from "../Product-card";
 
 function ProductCategory() {
   const [category, setCategory] = useState<string>("");
