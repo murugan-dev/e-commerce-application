@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
+    "module": "Node16", // Add this line
     "moduleResolution": "node16",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
+      "@/*": ["src/*"]
     },
     "resolveJsonModule": true,
     "esModuleInterop": true,
-   "jsx": "react-jsx"
+    "jsx": "react-jsx"
   },
   "include": ["src"],
   "exclude": ["node_modules"]
