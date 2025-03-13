@@ -2,7 +2,7 @@
 import React from 'react'
 
 // types
-import { type ProductInfo } from '@/types/types';
+import { type ProductInfo } from '@/types/types.ts';
 
 // Third party libaries
 import { BsCartCheck } from "react-icons/bs";

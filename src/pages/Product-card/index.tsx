@@ -8,10 +8,10 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
 //types
-import { type ProductInfo, type ProductCategory } from "@/types/types";
+import { type ProductInfo, type ProductCategory } from "@/types/types.ts";
 
 // Custom Components
-import { addToCard, removeCard } from "@/redux/reducer/addToCard";
+import { addToCard, removeCard } from "@/redux/reducer/addToCard.js";
 
 // API data files
 import AppliancesData from "@/data/appliances-data.json";

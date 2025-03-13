@@ -2,15 +2,15 @@
 import React, { useEffect, useState } from "react";
 
 // Types
-import { type ProductInfo } from "@/types/types";
+import { type ProductInfo } from "../../types/types.ts";
 
 // Third party Libraries
 import { useLocation, useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 
 // Custom Component
-import Header from "../Header";
-import formSchema from "@/utils/formSchema";
+import Header from "../Header/index.tsx";
+import formSchema from "@/utils/formSchema.ts";
 
 // Styles
 import "./styles.scss";
