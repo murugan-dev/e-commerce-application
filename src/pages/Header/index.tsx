@@ -6,8 +6,8 @@ import { type ProductInfo } from '@/types/types';
 
 // Third party libaries
 import { BsCartCheck } from "react-icons/bs";
+import { FaReact } from "react-icons/fa6";
 import { CiSearch } from "react-icons/ci";
-import { SiReactivex } from "react-icons/si";
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
@@ -24,7 +24,7 @@ function Header() {
   }
   return (
     <header className="header">
-       <SiReactivex className="logo"/>
+       <FaReact className="logo"/>
       <div className="search-box">
 
       <input

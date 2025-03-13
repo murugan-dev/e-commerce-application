@@ -54,10 +54,21 @@ header {
   .search {
     border: none;
     height: 2.5rem;
-    width: 30rem;
     padding: 1rem;
     border-radius: 6px;
+}
+
+@media screen and (max-width: 425px) {
+  .search {
+      width: 5.9rem;
   }
+}
+
+@media screen and (min-width: 768px) {
+    .search {
+        width: 30rem;
+    }
+}
   .search:focus {
     outline-color: grey;
   }

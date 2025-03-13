@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import { type ProductInfo } from "@/types/types";
 
 // Third party Libraries
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 
 // Custom Component
@@ -17,6 +17,7 @@ import "./styles.scss";
 
 const BuyNow = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const { products = [], counts = {} } = location?.state || {};
 
   const [count, setCount] = useState<{ [key: string]: number }>(() => {
@@ -60,6 +61,12 @@ const BuyNow = () => {
     const productCount = count[product.id] || 1;
     return total + productCount * product.price;
   }, 0);
+  const navigateToSuccesfullPage = () =>{
+    const TrueValues = Object.values(formik?.values).filter((item)=> item !== '')
+    if(TrueValues?.length !== 0 && TrueValues?.length === Object.values(formik?.values)?.length){
+      navigate('/buy-successful')
+    }
+  }
 
   useEffect(() => {
     if (Object.keys(counts)) {
@@ -193,7 +200,7 @@ const BuyNow = () => {
             )}
 
         <div className="place-order">
-          <button type="submit">Place Order</button>
+          <button type="submit" onClick={navigateToSuccesfullPage}>Place Order</button>
         </div>
       </form>
     </div>

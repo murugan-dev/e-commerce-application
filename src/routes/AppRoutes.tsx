@@ -9,6 +9,7 @@ import Home from '@/pages/Home';
 import ViewDetailsPage from '@/pages/view-details-page';
 import YourCarts from '@/pages/Your-carts';
 import BuyNow from '@/pages/BuyNow';
+import BuySuccesfull from '@/pages/BuySuccesfull';
 
 function AppRoutes() {
   return (
@@ -18,6 +19,7 @@ function AppRoutes() {
           <Route path="/view-details" element={<ViewDetailsPage />} />
           <Route path="/your-carts" element={<YourCarts />} />
           <Route path="/buy-now" element={<BuyNow />} />
+          <Route path="/buy-successful" element={<BuySuccesfull />} />
         </Routes>
       </BrowserRouter>
   )
