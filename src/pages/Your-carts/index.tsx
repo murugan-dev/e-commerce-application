@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 // types
-import { type ProductInfo } from "@/types/types";
+import { type ProductInfo } from "@/types/types.ts";
 
 // Third party librariies
 import { useSelector } from "react-redux";
@@ -10,7 +10,7 @@ import { FaStar } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
 
 // Custom component
-import Header from "../Header";
+import Header from "../Header/index.tsx";
 
 // styles
 import "./styles.scss";

@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // custom component
-import Header from '../Header';
+import Header from '../Header/index.tsx';
 
 //styles
 import './styles.scss';

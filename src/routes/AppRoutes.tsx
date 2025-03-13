@@ -6,10 +6,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 // Custom Component
 import Home from '@/pages/Home';
-import ViewDetailsPage from '@/pages/view-details-page';
-import YourCarts from '@/pages/Your-carts';
-import BuyNow from '@/pages/BuyNow';
-import BuySuccesfull from '@/pages/BuySuccesfull';
+import ViewDetailsPage from '@/pages/view-details-page/index.tsx';
+import YourCarts from '@/pages/Your-carts/index.tsx';
+import BuyNow from '@/pages/BuyNow/index.tsx';
+import BuySuccesfull from '@/pages/BuySuccesfull/index.tsx';
 
 function AppRoutes() {
   return (

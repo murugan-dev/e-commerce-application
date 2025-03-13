@@ -7,9 +7,9 @@ import { FaStar, FaTag } from "react-icons/fa6";
 import { useDispatch, useSelector } from "react-redux";
 
 // custom component
-import Header from "../Header";
-import { type ProductInfo, type DateAndDay } from "@/types/types";
-import { addToCard, removeCard } from "@/redux/reducer/addToCard";
+import Header from "../Header/index.tsx";
+import { type ProductInfo, type DateAndDay } from "@/types/types.ts";
+import { addToCard, removeCard } from "@/redux/reducer/addToCard.js";
 
 // styles
 import "./styles.scss";
