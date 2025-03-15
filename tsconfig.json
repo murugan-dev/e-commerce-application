@@ -6,7 +6,7 @@
     "jsxImportSource": "react",
     "types": ["react", "react-dom", "node"],
     "noEmit": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     },
