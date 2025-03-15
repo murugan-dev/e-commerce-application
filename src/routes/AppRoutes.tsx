@@ -5,7 +5,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 // Custom Component
-import Home from '@/pages/Home';
+import Home from '@/pages/Home/index.tsx';
 import ViewDetailsPage from '@/pages/view-details-page/index.tsx';
 import YourCarts from '@/pages/Your-carts/index.tsx';
 import BuyNow from '@/pages/BuyNow/index.tsx';
