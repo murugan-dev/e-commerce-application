@@ -7,7 +7,7 @@
   background-color: #fff;
   padding: 5rem 0 7rem 0;
 
-  @media screen and (max-width: 426px) {
+  @media screen and (max-width: 500px) {
     flex-direction: column;
   }
   .img {
@@ -28,7 +28,7 @@
   }
   .contents {
     margin: 0;
-    @media screen and (max-width: 426px) {
+    @media screen and (max-width: 500px) {
       margin: 1rem;
     }
     .product_description {

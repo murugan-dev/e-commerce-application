@@ -29,7 +29,7 @@ function Header() {
 
       <input
         type="text"
-        placeholder="Search a products, brands and more"
+        placeholder="Search a products"
         className="search"
       />
       <CiSearch className="search-icon"/>
